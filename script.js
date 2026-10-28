@@ -77,19 +77,19 @@ const services = [
     {
         id: 'gift-card',
         name: 'Gift Card',
-        icon: '',
+        icon: '🎁',
         description: 'Buy and sell digital gift cards'
     },
     {
         id: 'esim',
-        name: 'eSim',
-        icon: '',
+        name: 4: 'eSim',
+        icon: '📱',
         description: 'Activate eSim for your device'
     },
     {
         id: 'airtime',
         name: 'Airtime',
-        icon: '',
+        icon: '☎️',
         description: 'Buy airtime for any network'
     },
     {
@@ -101,19 +101,19 @@ const services = [
     {
         id: 'cable-tv',
         name: 'Cable TV',
-        icon: '',
+        icon: '📺',
         description: 'Subscribe to cable TV services'
     },
     {
         id: 'electricity',
         name: 'Electricity',
-        icon: '',
+        icon: '⚡',
         description: 'Pay for electricity bills'
     },
     {
         id: 'buy-number',
         name: 'Buy Number',
-        icon: '',
+        icon: '🔢',
         description: 'Purchase phone numbers'
     },
     {
@@ -485,7 +485,7 @@ function generateServicePage(service) {
                         <div class="provider-card">
                             <div class="provider-header">
                                 <h4>DStv</h4>
-                                <div class="provider-logo dstv"></div>
+                                <div class="provider-logo dstv">📺</div>
                             </div>
                             <div class="package-list">
                                 <div class="pkg">
@@ -507,7 +507,7 @@ function generateServicePage(service) {
                         <div class="provider-card">
                             <div class="provider-header">
                                 <h4>GoTV</h4>
-                                <div class="provider-logo gotv"></div>
+                                <div class="provider-logo gotv">📺</div>
                             </div>
                             <div class="package-list">
                                 <div class="pkg">
@@ -666,56 +666,56 @@ function generateServicePage(service) {
                 <div class="service-content">
                     <div class="more-services-grid">
                         <div class="service-card">
-                            <div class="service-icon"></div>
+                            <div class="service-icon">🏠</div>
                             <h3>Housing</h3>
                             <p>Pay for housing services</p>
                             <button class="action-btn">Explore</button>
                         </div>
 
                         <div class="service-card">
-                            <div class="service-icon"></div>
+                            <div class="service-icon">🚗</div>
                             <h3>Transportation</h3>
                             <p>Book rides and travel</p>
                             <button class="action-btn">Explore</button>
                         </div>
 
                         <div class="service-card">
-                            <div class="service-icon"></div>
+                            <div class="service-icon">🍔</div>
                             <h3>Food & Dining</h3>
                             <p>Order food online</p>
                             <button class="action-btn">Explore</button>
                         </div>
 
                         <div class="service-card">
-                            <div class="service-icon"></div>
+                            <div class="service-icon">🏥</div>
                             <h3>Healthcare</h3>
                             <p>Healthcare services</p>
                             <button class="action-btn">Explore</button>
                         </div>
 
                         <div class="service-card">
-                            <div class="service-icon"></div>
+                            <div class="service-icon">🎓</div>
                             <h3>Education</h3>
                             <p>Pay tuition fees</p>
                             <button class="action-btn">Explore</button>
                         </div>
 
                         <div class="service-card">
-                            <div class="service-icon"></div>
+                            <div class="service-icon">💳</div>
                             <h3>Insurance</h3>
                             <p>Buy insurance policies</p>
                             <button class="action-btn">Explore</button>
                         </div>
 
                         <div class="service-card">
-                            <div class="service-icon"></div>
+                            <div class="service-icon">✈️</div>
                             <h3>Travel</h3>
                             <p>Book flights & hotels</p>
                             <button class="action-btn">Explore</button>
                         </div>
 
                         <div class="service-card">
-                            <div class="service-icon"></div>
+                            <div class="service-icon">💰</div>
                             <h3>Loans</h3>
                             <p>Get instant loans</p>
                             <button class="action-btn">Explore</button>
